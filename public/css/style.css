@@ -1,0 +1,310 @@
+@media (max-width: 576px) {
+
+  /* header */
+  #app {
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  body {
+    height: 100%;
+    background-image: url("/img/bg_signin02.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #6e7279;
+  }
+
+  html {
+    height: 100%;
+  }
+
+  .login-title {
+    height: 105px;
+    background-image: url("/img/bg_signin01.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .ic-back {
+    margin-bottom: 12px;
+  }
+
+  .ic-back img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .member-login {
+    font-family: Microsoft JhengHei;
+    font-size: 22px;
+    color: #fff1b8;
+    letter-spacing: 0;
+    text-align: center;
+    text-shadow: 0 3px 4px #6c4a31;
+    font-weight: 500;
+    margin-bottom: 12px;
+  }
+
+  .line {
+    height: 3px;
+    background-image: linear-gradient(90deg,
+        #d5a877 0%,
+        #f1d0ac 36%,
+        #f1d0ac 65%,
+        #d5a877 93%,
+        #f1d0ac 100%);
+  }
+
+  .logo {
+    position: absolute;
+    width: 65px;
+    top: 16%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  .bg-sign {
+    width: auto;
+    height: auto;
+  }
+
+  .sign-box {
+    display: flex;
+    justify-content: center;
+  }
+
+  .bt-size {
+    width: 28%;
+    margin-right: 5px;
+  }
+
+  .line-or {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    color: #adafb4;
+    width: 87%;
+    margin: 0 auto;
+    margin-bottom: 12px;
+  }
+
+  .line-or::before,
+  .line-or::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    opacity: 0.8;
+    background: #dcdee3;
+    margin: 0px 0.5rem;
+  }
+
+  .login-text {
+    font-size: 15px;
+    letter-spacing: 0;
+    font-weight: 400;
+  }
+
+  .form-wrap {
+    width: 87%;
+    margin: 0 auto;
+  }
+
+  .form-control {
+    background-image: linear-gradient(white, white),
+      linear-gradient(rgb(209, 209, 209), rgb(255, 255, 255));
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    position: relative;
+    padding: 0.4rem 0.8rem;
+    border-width: 1px;
+    border-style: double;
+    border-color: transparent !important;
+    border-image: initial;
+    border-radius: 4px;
+  }
+
+  .form-group {
+    margin-bottom: 24px;
+  }
+
+  .input-username {
+    position: relative;
+  }
+
+  .email-select {
+    position: relative;
+    height: 0;
+  }
+
+  .email-select-list {
+    padding: 8px 4px !important;
+    text-align: center;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+    background-color: #fff;
+    overflow: hidden;
+    list-style: none;
+    margin: 0;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    border: 0.1px solid darkgrey;
+    box-sizing: border-box;
+    margin-top: -0.9px;
+  }
+
+  .usernameClear {
+    width: 12px;
+    cursor: pointer;
+    position: absolute;
+    right: 12px;
+    top: 14px;
+  }
+
+  .input-pwd {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .icon-eyes,
+  .toggle-password {
+    position: absolute;
+    stroke: currentcolor;
+    fill: currentcolor;
+    stroke-width: 0;
+    height: 1em;
+    width: 1em;
+    right: 12px;
+    top: 14px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("/img/feather-icon-eye.png");
+  }
+
+  .form-control.is-invalid {
+    background-image: linear-gradient(white, white),
+      linear-gradient(rgb(194, 92, 92), rgb(255, 255, 255));
+    background-repeat: unset;
+    background-position: unset;
+    background-size: unset;
+  }
+
+  .form-control.is-invalid:focus,
+  .form-control:focus {
+    box-shadow: unset;
+  }
+  
+  .toggle-password {
+    background-image: url("/img/feather-icon-eye-off.png");
+  }
+
+  .img-pwd-err {
+    width: 14px;
+    margin-right: 4px;
+  }
+
+  .login-input-text {
+    font-size: 15px;
+  }
+
+  .login-placeholder {
+    font-size: 14px;
+    /* color: #C3C3C3; */
+    letter-spacing: 0;
+    font-weight: 400;
+  }
+
+  .form-check {
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    font-size: 1rem;
+    margin: 1.5rem 10px 52px;
+  }
+
+  .forgot {
+    font-family: SourceHanSansCN-Medium;
+    font-size: 15px;
+    color: #111d70;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: 500;
+    border-bottom: 1px solid #111d70;
+  }
+
+  /* daisy */
+  .btn-warp {
+    margin: 0 20px;
+  }
+
+  .l-btn {
+    background-size: contain;
+    width: 120px;
+    height: 42px;
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 42px;
+    color: rgb(255, 255, 255);
+  }
+
+  .signup-btn {
+    background-image: url(/img/bt_cancel.png);
+    text-shadow: rgb(37, 139, 181) 1px 1px 1px, rgb(37, 139, 181) 1px -1px 1px,
+      rgb(37, 139, 181) -1px 1px 1px, rgb(37, 139, 181) -1px -1px 1px;
+  }
+
+  .submit-btn {
+    background-image: url(/img/bt_dis.png);
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(73, 73, 73) 1px 1px 1px, rgb(73, 73, 73) 1px -1px 1px,
+      rgb(73, 73, 73) -1px 1px 1px, rgb(73, 73, 73) -1px -1px 1px;
+  }
+
+  .submit-active-btn {
+    /* display: none; */
+    background-image: url(/img/bt_correct.png);
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(191, 107, 17) 1px 1px 1px, rgb(191, 107, 17) 1px -1px 1px,
+      rgb(191, 107, 17) -1px 1px 1px, rgb(191, 107, 17) -1px -1px 1px;
+  }
+
+  /* modal daisy*/
+  .modal-content {
+    border: 3px solid #a9a9a9;
+    border-radius: 25px;
+    margin: 0 18px;
+  }
+
+  .modal-title-bg {
+    background-image: url(/img/title01.png);
+    margin: -27px 16px 0;
+    background-size: cover;
+    width: 100%;
+    height: 50px;
+  }
+
+  .modal-title {
+    font-size: 22px;
+    color: #fffbd0;
+    text-shadow: 0 3px 4px #a3541a;
+    font-weight: bold;
+    margin-top: 6px;
+  }
+
+  .modal-close {
+    background-image: url(/img/game-Buttons-close.png);
+    background-size: 100%;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    right: -11px;
+    top: -16px;
+  }
+}
