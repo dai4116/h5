@@ -7,7 +7,7 @@
 
   body {
     height: 100%;
-    background-image: url("/img/bg_signin02.png");
+    background-image: url("../img/bg_signin02.png");
     background-position: center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -22,7 +22,7 @@
 
   .login-title {
     height: 105px;
-    background-image: url("/img/bg_signin01.png");
+    background-image: url("../img/bg_signin01.png");
     background-size: cover;
     background-position: center;
   }
@@ -31,7 +31,7 @@
     margin-bottom: 12px;
   }
 
-  .ic-back img {
+  .ic-back ../img {
     width: 25px;
     height: 25px;
   }
@@ -184,7 +184,7 @@
     top: 14px;
     background-size: 100%;
     background-repeat: no-repeat;
-    background-image: url("/img/feather-icon-eye.png");
+    background-image: url("../img/feather-icon-eye.png");
   }
 
   .form-control.is-invalid {
@@ -201,10 +201,10 @@
   }
   
   .toggle-password {
-    background-image: url("/img/feather-icon-eye-off.png");
+    background-image: url("../img/feather-icon-eye-off.png");
   }
 
-  .img-pwd-err {
+  .../img-pwd-err {
     width: 14px;
     margin-right: 4px;
   }
@@ -255,13 +255,13 @@
   }
 
   .signup-btn {
-    background-image: url(/img/bt_cancel.png);
+    background-image: url(../img/bt_cancel.png);
     text-shadow: rgb(37, 139, 181) 1px 1px 1px, rgb(37, 139, 181) 1px -1px 1px,
       rgb(37, 139, 181) -1px 1px 1px, rgb(37, 139, 181) -1px -1px 1px;
   }
 
   .submit-btn {
-    background-image: url(/img/bt_dis.png);
+    background-image: url(../img/bt_dis.png);
     color: rgb(255, 255, 255);
     text-shadow: rgb(73, 73, 73) 1px 1px 1px, rgb(73, 73, 73) 1px -1px 1px,
       rgb(73, 73, 73) -1px 1px 1px, rgb(73, 73, 73) -1px -1px 1px;
@@ -269,7 +269,7 @@
 
   .submit-active-btn {
     /* display: none; */
-    background-image: url(/img/bt_correct.png);
+    background-image: url(../img/bt_correct.png);
     color: rgb(255, 255, 255);
     text-shadow: rgb(191, 107, 17) 1px 1px 1px, rgb(191, 107, 17) 1px -1px 1px,
       rgb(191, 107, 17) -1px 1px 1px, rgb(191, 107, 17) -1px -1px 1px;
@@ -283,7 +283,7 @@
   }
 
   .modal-title-bg {
-    background-image: url(/img/title01.png);
+    background-image: url(../img/title01.png);
     margin: -27px 16px 0;
     background-size: cover;
     width: 100%;
@@ -299,7 +299,7 @@
   }
 
   .modal-close {
-    background-image: url(/img/game-Buttons-close.png);
+    background-image: url(../img/game-Buttons-close.png);
     background-size: 100%;
     width: 45px;
     height: 45px;

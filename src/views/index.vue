@@ -3,24 +3,24 @@
     <!-- header 1-->
     <div class="login-bg">
       <div class="login-title d-flex align-items-center">
-        <!-- <img src="/img/bg_signin01.png" class="w-100" alt=""> -->
-          <div class="col-2 ic-back"><img src="/img/ic_back.png" alt=""></div>
+        <!-- <img src="img/bg_signin01.png" class="w-100" alt=""> -->
+          <div class="col-2 ic-back"><img src="img/ic_back.png" alt=""></div>
           <div class="col-8 text-center member-login">會員登入</div>
           <div class="col-2"></div>
       </div>
       <!-- logo & line -->
       <div class="position-relative">
         <div class="line"></div>
-        <img src="/img/logo01.png" class="logo" alt="">
+        <img src="img/logo01.png" class="logo" alt="">
       </div>
     <!-- /header 1-->
 
     <!-- header 2 -->
       <!-- facevook/apple/google -->
       <div class="sign-box mt-5">
-        <img src="/img/bt_facebook.png" class="bt-size">
-        <img src="/img/bt_apple.png" class="bt-size">
-        <img src="/img/bt_google.png" class="bt-size">
+        <img src="img/bt_facebook.png" class="bt-size">
+        <img src="img/bt_apple.png" class="bt-size">
+        <img src="img/bt_google.png" class="bt-size">
       </div>
 
       <!-- or -->
@@ -40,7 +40,7 @@
               </ul>
             </div>
             <div class="invalid-feedback">
-              <img src="/img/ic_alerts-alt.png" class="img-pwd-err">{{ userErrMsg }}
+              <img src="img/ic_alerts-alt.png" class="img-pwd-err">{{ userErrMsg }}
             </div>
 
             <!-- <div>
@@ -53,7 +53,7 @@
               />
             </div> -->
 
-            <img src="/img/feather-ic-delete.png" v-if="this.username.length > 0" class="usernameClear" @click="usernameClear()">
+            <img src="img/feather-ic-delete.png" v-if="this.username.length > 0" class="usernameClear" @click="usernameClear()">
           </div>
         </div>
 
@@ -63,7 +63,7 @@
             <input type="password" v-model="password" v-bind:class="{ 'is-invalid': passwordError }" class="form-control login-placeholder" id="inputLoginPassword"  maxlength='20' placeholder="7-20個英數字">
             <div class="icon-eyes" @click="iconEye()"></div>
             <div class="invalid-feedback">
-              <img src="/img/ic_alerts-alt.png" class="img-pwd-err">{{ passErrMsg }}
+              <img src="img/ic_alerts-alt.png" class="img-pwd-err">{{ passErrMsg }}
             </div>
           </div>
           
