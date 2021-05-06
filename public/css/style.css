@@ -31,7 +31,7 @@
     margin-bottom: 12px;
   }
 
-  .ic-back ../img {
+  .ic-back img {
     width: 25px;
     height: 25px;
   }
@@ -204,7 +204,7 @@
     background-image: url("../img/feather-icon-eye-off.png");
   }
 
-  .../img-pwd-err {
+  .img-pwd-err {
     width: 14px;
     margin-right: 4px;
   }
