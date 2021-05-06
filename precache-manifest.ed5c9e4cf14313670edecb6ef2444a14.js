@@ -17,127 +17,127 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "c71d42eacbdb21ea0a9a2277bf719ecb",
-    "url": "/img/bg_pop.png"
+    "url": "img/bg_pop.png"
   },
   {
     "revision": "4eea6532a2493922645353329615f83c",
-    "url": "/img/bg_signin01.4eea6532.png"
+    "url": "img/bg_signin01.4eea6532.png"
   },
   {
     "revision": "4eea6532a2493922645353329615f83c",
-    "url": "/img/bg_signin01.png"
+    "url": "img/bg_signin01.png"
   },
   {
     "revision": "b8ebddcc7d669106b5233d9ccc360485",
-    "url": "/img/bg_signin02.b8ebddcc.png"
+    "url": "img/bg_signin02.b8ebddcc.png"
   },
   {
     "revision": "b8ebddcc7d669106b5233d9ccc360485",
-    "url": "/img/bg_signin02.png"
+    "url": "img/bg_signin02.png"
   },
   {
     "revision": "043f1ba873914ef5c6f6b728d18c86e0",
-    "url": "/img/bt_apple.png"
+    "url": "img/bt_apple.png"
   },
   {
     "revision": "c8f4a84bd320e40fafafb44ec841f45c",
-    "url": "/img/bt_cancel.c8f4a84b.png"
+    "url": "img/bt_cancel.c8f4a84b.png"
   },
   {
     "revision": "c8f4a84bd320e40fafafb44ec841f45c",
-    "url": "/img/bt_cancel.png"
+    "url": "img/bt_cancel.png"
   },
   {
     "revision": "41ab07545b58ed45ce982b2dbea5f45e",
-    "url": "/img/bt_correct.41ab0754.png"
+    "url": "img/bt_correct.41ab0754.png"
   },
   {
     "revision": "41ab07545b58ed45ce982b2dbea5f45e",
-    "url": "/img/bt_correct.png"
+    "url": "img/bt_correct.png"
   },
   {
     "revision": "978fc6dbf9bc9c92864cc5b3574217cd",
-    "url": "/img/bt_dis.978fc6db.png"
+    "url": "img/bt_dis.978fc6db.png"
   },
   {
     "revision": "978fc6dbf9bc9c92864cc5b3574217cd",
-    "url": "/img/bt_dis.png"
+    "url": "img/bt_dis.png"
   },
   {
     "revision": "684da6d52f6ef264c3d989961c484c69",
-    "url": "/img/bt_facebook.png"
+    "url": "img/bt_facebook.png"
   },
   {
     "revision": "84368871e30987d60678c45892b97295",
-    "url": "/img/bt_google.png"
+    "url": "img/bt_google.png"
   },
   {
     "revision": "8a233c1f33ef74918a205fce227e407f",
-    "url": "/img/feather-ic-delete.png"
+    "url": "img/feather-ic-delete.png"
   },
   {
     "revision": "287d11463cceea0b7f93ce144bdb1534",
-    "url": "/img/feather-icon-eye-off.png"
+    "url": "img/feather-icon-eye-off.png"
   },
   {
     "revision": "f8e840b4ea6724c87360602a8ef923f7",
-    "url": "/img/feather-icon-eye.png"
+    "url": "img/feather-icon-eye.png"
   },
   {
     "revision": "898eb4c56e0d3031a2b2ac6ce4901590",
-    "url": "/img/game-Buttons-close.898eb4c5.png"
+    "url": "img/game-Buttons-close.898eb4c5.png"
   },
   {
     "revision": "898eb4c56e0d3031a2b2ac6ce4901590",
-    "url": "/img/game-Buttons-close.png"
+    "url": "img/game-Buttons-close.png"
   },
   {
     "revision": "6d4f7175534240199d0dce20a1276b77",
-    "url": "/img/ic-cancel.png"
+    "url": "img/ic-cancel.png"
   },
   {
     "revision": "c9f93fe71491e4c99d70248b1c6e23c7",
-    "url": "/img/ic_alerts-alt.png"
+    "url": "img/ic_alerts-alt.png"
   },
   {
     "revision": "98a0335ec5f83767c0a5f988db8d46d6",
-    "url": "/img/ic_back.png"
+    "url": "img/ic_back.png"
   },
   {
     "revision": "a26ceaa6d7b16746999ac927d09cb4e4",
-    "url": "/img/ic_check_no.png"
+    "url": "img/ic_check_no.png"
   },
   {
     "revision": "8e9ad9c1eecbfb148b9d35a7fbb841d7",
-    "url": "/img/ic_check_tick.png"
+    "url": "img/ic_check_tick.png"
   },
   {
     "revision": "ef26c52bad39d260201f5d98ad77b620",
-    "url": "/img/icon-p-email.png"
+    "url": "img/icon-p-email.png"
   },
   {
     "revision": "c072d95ad58ef0f44d7340cdf62f7b82",
-    "url": "/img/icon-p-name.png"
+    "url": "img/icon-p-name.png"
   },
   {
     "revision": "818130f242f109b5fb2eb395b4395e98",
-    "url": "/img/icon-p-phone.png"
+    "url": "img/icon-p-phone.png"
   },
   {
     "revision": "82b9c7a5a3f405032b1db71a25f67021",
-    "url": "/img/logo.82b9c7a5.png"
+    "url": "img/logo.82b9c7a5.png"
   },
   {
     "revision": "5e4c32ea4db311cfcd181675bda592f4",
-    "url": "/img/logo01.png"
+    "url": "img/logo01.png"
   },
   {
     "revision": "a309d5691e5f202fcfd0df75a4970901",
-    "url": "/img/title01.a309d569.png"
+    "url": "img/title01.a309d569.png"
   },
   {
     "revision": "a309d5691e5f202fcfd0df75a4970901",
-    "url": "/img/title01.png"
+    "url": "img/title01.png"
   },
   {
     "revision": "e3798e5ae480f1afe103bc6c975f9473",
